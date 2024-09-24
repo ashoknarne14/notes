@@ -1,0 +1,113 @@
+grep <word-to-find> <file-name> --> To find a word in the file name
+
+curl & wget --> To download the file
+
+curl <url>
+
+wget <url>
+
+wget is used to download the file, curl is used to show the text directly on the file. curl is used to run the scripts
+
+cut --> To get the specific text using the delimiter
+
+cut -d "/" -f1 --> Gives the first fragment of the text
+
+awk --> To get the specific text using the delimiter
+
+awk -F "/" '{print $1F} - Prints the first fragment of the input
+
+awk -F "/" '{print $NF} - Prints the last fragment of the input
+
+awk -F "/" {print $1F} passwd - To get list of users from passwd file in Linux
+
+awk -F "/" {print $1F, $3F} passwd - To get multiple fragmentation details from passwd file
+
+head --> To get top 10 lines from the file
+
+head passwd --> To get top 10 lines
+
+head -n 5 passwd --> To get specific number of lines using -n option
+
+tail --> To get bottom 10 lines from the file
+
+tail passwd --> To get bottom 10 lines
+
+tail -n 15 passwd --> To get specific number of lines using -n option
+
+tail -f <server.log> --> To see the running log file
+
+/var/log/messages --> log file location
+
+Editor
+-----------
+vim --> visually improved
+
+vim <file-name>
+
+Colon/Command Mode
+---------------
+:q --> Quit
+
+:wq --> write and quit
+
+:q! --> don't save the changes and exit
+
+:set nu --> Show the numbers for each line
+
+:set nonu --> No numbers for each line
+
+:/<word-to-find> --> search from top
+
+:?<word-to-find> --> search from bottom
+
+:noh --> Do not highlight anything
+
+:%d --> Delete everything from the file
+
+:s/sbin/SBIN --> To replace sbin with SBIN for the first occurrence in the line where the cursor is
+
+:s/sbin/SBIN/g --> To replace sbin with SBIN for the all occurrence in the line where the cursor is
+
+:3s/sbin/SBIN/g --> To replace sbin with SBIN for the all occurrence in the third line
+
+:%s/sbin/SBIN/g --> To replace sbin with SBIN for the all occurrence in the file
+
+
+ESC mode
+------------
+
+u --> Undo all the changes of a file
+
+shift + g --> To go to the bottom of the file
+
+gg --> To go to the top of the file
+
+yy --> To copy the specific line
+
+p --> To paste the content
+
+10p --> To paste the content 10 times
+
+dd --> to delete the line
+
+
+Insert Mode
+------------
+
+To insert the text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
