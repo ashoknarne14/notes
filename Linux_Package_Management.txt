@@ -1,0 +1,62 @@
+Package Management
+------------------
+
+/etc/yum.repos.d --> Url's are configured to install packages
+
+dnf install <package-name> --> To install package name
+
+dnf list installed --> To show the installed packages on the server
+
+dnf list available --> To show the list of packages available for installation
+
+dnf remove <package-name> -y --> To remove the package name from the server
+
+cat /proc/cpuinfo --> To get the CPU information
+
+cat /proc/meminfo --> To get the memory information
+
+cat /etc/os-release --> To get the operating system information
+
+
+Service Management
+------------------
+
+systemctl --> Used to start/stop, enable, disable & status check for services
+
+systemctl status <service-name> --> To see the current status of service name
+
+systemctl start <service-name> --> To start the service
+
+systemctl restart <service-name> --> To restart the service
+
+systemctl stop <service-name> --> To stop the service
+
+systemctl enable <service-name> --> To enable the service
+
+systemctl disable <service-name> --> To disable the service
+
+
+Process Management
+------------------
+
+ps -ef --> To check the running process
+
+Use & to run the process on background
+
+Ex: sleep 100 &
+
+top --> To see the top running process
+
+kill <process-id> --> To kill the process with request
+
+kill -9 <process-id> --> To kill the process with force (order)
+
+
+Network Management
+------------------
+
+netstat -lntp  --> To check whether port is open or not
+
+
+
+
